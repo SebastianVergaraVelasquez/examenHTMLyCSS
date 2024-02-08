@@ -40,7 +40,7 @@
 .container aside nav a:visited{
     margin: 20px 0;
     text-decoration: none;
-    color: black;
+    color:#5f545c;
 }
 
 .container aside nav{
@@ -55,6 +55,7 @@
 
 .container aside .item div i{
     font-size: 1.5rem;
+    color: #eea069;
 }
 
 .container{
@@ -73,6 +74,38 @@ aside{
     justify-content: space-between;
 }
 
+aside header{
+    color: #eb7072;
+}
+
+aside nav .Todas{
+    border: 1px solid black;
+    height: 50px;
+    box-shadow: 1px 1px 1px;
+    border-radius: 5px;
+}
+
+aside nav .adidas{
+    border: 1px solid black;
+    height: 50px;
+    box-shadow: 1px 1px 1px;
+    border-radius: 5px;
+}
+
+aside nav .nike{
+    border: 1px solid black;
+    height: 50px;
+    box-shadow: 1px 1px 1px;
+    border-radius: 5px;
+}
+
+aside nav .puma{
+    border: 1px solid black;
+    height: 50px;
+    box-shadow: 1px 1px 1px;
+    border-radius: 5px;
+}
+
 .item{
     display: flex;
     gap: 20px
@@ -88,11 +121,13 @@ aside{
 
 main{
     border-radius: 10px;
-    border: 1px solid blue; 
+    /* border: 1px solid blue;  */
     width: 80vw;
     padding: 20px;
     height: 92vh;
     overflow-y: scroll;
+    box-shadow: px 2px 2px #f5e2b8;
+    background-color: #faeddf;
 }
 
 main h2{
@@ -109,17 +144,21 @@ main h2{
 
 .card{
     width: 18   vw;
-    border: 1px solid red;
+    border: 1px solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 10px;
 }
 
+.card-container .card{
+    background-color: white ;
+}
+
 .card-container .card div img{
     width: 250px;
-    height: 300px;
-    border: 1px solid black;
+    height: 290px;
+    object-fit: fill;
 }
 
 .card .detalle{
@@ -131,6 +170,8 @@ main h2{
     height: 80px;
     width: 100%;
     border-radius: 10px;
+    background-color: rgb(193, 221, 147);
+    box-shadow: 1px 2px 2px black;  
 }
 
 .card .detalle .agregar{

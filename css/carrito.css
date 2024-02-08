@@ -1,14 +1,25 @@
-/* .item-carrito{
+aside .carrito{
+    border: 1px solid black;
+    height: 40px;
+    box-shadow: 1px 1px 1px;
+    border-radius: 5px;
+    margin-top: -150px;
+}
+
+aside .carrito .contador{
+    position: relative;
+    top:2px
+}
+
+.container aside a{
+    margin-top: 0px;
     text-decoration: none;
     color: black;
 }
-.item-carrito:visited{
-    text-decoration: none;
-    color: black;
-} */
 
 main{
     overflow-y: hidden;
+    background-color: #a2caa5;
 }
 
 .container main .card-container-carrito{
@@ -25,6 +36,7 @@ main{
     flex-direction: row;
     justify-content: space-around;
     margin-bottom: 20px;
+    background-color: white;
 }
 
 .container main .card-container-carrito .card .seccion{
@@ -74,6 +86,8 @@ main{
     border: 1px solid black;
     border-radius: 5px;
     padding: 0 20px;
+    background-color: white;
+    box-shadow: 2px 2px 2px;
 }
 
 .vaciar-carrito .vaciar-opciones div a{
@@ -81,11 +95,12 @@ main{
 }
 
 .vaciar-carrito .fondo{
-    background: lightcoral;
+    background: #eb7072;
     width: 200px;
     height: 30px;
     text-align: center;
     border-radius: 5px;
+    box-shadow: 2px 2px 2px;
 }
 
 .vaciar-carrito .fondo a{
