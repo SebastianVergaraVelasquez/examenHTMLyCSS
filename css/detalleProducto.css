@@ -1,0 +1,15 @@
+.container main .card-container-carrito{
+    overflow-y: hidden;
+    height: 70vh;
+}
+
+.vaciar-carrito .vaciar-opciones{
+    position: relative;
+    top: -450px;
+    right: -16px;
+}
+
+.vaciar-carrito .fondo2{
+    position: relative;
+    top: -470px;
+}

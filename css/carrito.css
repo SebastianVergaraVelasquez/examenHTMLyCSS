@@ -25,12 +25,16 @@ main{
 .container main .card-container-carrito .card .seccion{
     display: flex;
     flex-direction: column;
-    gap: 50px;
-    
+    gap: 50px; 
+}
+
+.container main .card-container-carrito .card .nombre{
+    margin-right: 100px;
 }
 
 .container main .card-container-carrito .card img{
     height: 200px;
+    width: 200px;
 }
 
 .container main h3{
