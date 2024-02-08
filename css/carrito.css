@@ -1,7 +1,25 @@
+.item-carrito{
+    text-decoration: none;
+    color: black;
+}
+.item-carrito:visited{
+    text-decoration: none;
+    color: black;
+}
+
+main{
+    overflow-y: hidden;
+}
+
+.container main .card-container-carrito{
+    overflow-y: scroll;
+    height: 70vh;
+}
 .container main .card-container-carrito .card{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-bottom: 20px;
 }
 
 .container main .card-container-carrito .card .seccion{
@@ -16,5 +34,54 @@
 }
 
 .container main h3{
-    font-size: 1.7rem
+    font-size: 1.7rem;
+    font-weight: 100;
+}
+
+.container main .card-container-carrito .card .cantidad input{
+    height: 30px;
+}
+
+.container main .card-container-carrito .card a{
+    font-size: 50px;
+}
+
+.vaciar-carrito{
+    width: 70.5vw;
+    height:5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.vaciar-carrito .vaciar-opciones{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0 20px;
+}
+
+.vaciar-carrito .vaciar-opciones div a{
+   align-self: flex-end;
+}
+
+.vaciar-carrito .fondo{
+    background: lightcoral;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.vaciar-carrito .fondo1{
+    background: lightcoral;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: -25px;
 }
