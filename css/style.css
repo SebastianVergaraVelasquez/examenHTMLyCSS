@@ -46,6 +46,8 @@
 
 .container aside a{
     margin-top: -80px;
+    text-decoration: none;
+    color: black;
 }
 
 .container aside .item div i{
