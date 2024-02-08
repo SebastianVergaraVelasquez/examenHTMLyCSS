@@ -15,6 +15,11 @@ main{
     overflow-y: scroll;
     height: 70vh;
 }
+
+.card-container-carrito a{
+    text-decoration: none;
+}
+
 .container main .card-container-carrito .card{
     display: flex;
     flex-direction: row;
@@ -48,6 +53,8 @@ main{
 
 .container main .card-container-carrito .card a{
     font-size: 50px;
+    text-decoration: none;
+    color: black;
 }
 
 .vaciar-carrito{
@@ -79,6 +86,11 @@ main{
     height: 30px;
     text-align: center;
     border-radius: 5px;
+}
+
+.vaciar-carrito .fondo a{
+    color: black;
+    text-decoration: none;
 }
 
 .vaciar-carrito .fondo1{
